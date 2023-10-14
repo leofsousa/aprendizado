@@ -1,0 +1,14 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+}
+h1{ 
+    width: 100%;
+}
+img{
+    width: 300px;
+}
