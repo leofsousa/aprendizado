@@ -67,3 +67,15 @@ img{
     width: 300px;
     position: relative;
 }
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: var(--cor0);
+}
