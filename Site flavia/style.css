@@ -1,14 +1,29 @@
 @charset "UTF-8";
+:root{
+    --cor0:#89D99D;
+    --cor1:#3B8C6E;
+    --cor2:#1E5959;
+    --cor3:#0B2B40;
+    --cor4:#0B2B40;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
-header{
-    display: flex;
+div.description{
+    display: inline-block;
+}
+header > p{
+    width: 100%;
 }
 h1{ 
-    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: var(--cor3);
+    color: white;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.486);
 }
 img{
     width: 300px;
+    position: relative;
 }
