@@ -6,36 +6,45 @@
     <title>Currículo Flávia</title>
     <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Currículo Acadêmico</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Instagram</a>
-            <a href="#">Currículo Lattes</a>
-            <a href="#">Contato</a>
-        </nav>
-        <div class="description">
-            <img src="foto flavia.jpeg" alt="Foto Flavia Diniz">
-            <h2>Flávia Diniz Prado</h2>
-            <br>
-            <p>
-                Flávia Diniz Prado, formada pela Universidade Estadual de Londrina sempre demonstrou interesse pela área de reprodução, em pequenos e grandes animais.
-            </p>
-        </div> 
-    </header>
-    
-    <main>
-        <article>
-            <h3>Estágio Curricular</h3>
-            <ul>
-                <li>Faculdade de Medicina Veterinária e Zootecnia – UNESP - Botucatu </li>
-                <p>Área de Reprodução</p>
-                <li>Hospital Veterinário da Universidade Estadual de Londrina</li>
-                <p>Área de Teriogenealogia de Animais de Companhia</p>
-            </ul>
-        </article>
-    </main>
+    <nav>
+        <ul id="menu" class="menu">
+            <li><a href="" class="btnFechar" onclick="fecharNav()">&times;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Currículo Lattes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <section>
+            <span style="font-size: 30px; cursor: pointer;" onclick="abrirNav()">&#8776; </span>
+        </section>
+    </nav>
+    <div id="principal">
+        <header>
+            <h1>Currículo Acadêmico</h1>
+            <div class="description">
+                <img src="foto flavia.jpeg" alt="Foto Flavia Diniz">
+                <h2>Flávia Diniz Prado</h2>
+                <br>
+                <p>
+                    Flávia Diniz Prado, formada pela Universidade Estadual de Londrina sempre demonstrou interesse pela área de reprodução, em pequenos e grandes animais.
+                </p>
+            </div>
+        </header>
+        
+        <main>
+            <article>
+                <h3>Estágio Curricular</h3>
+                <ul>
+                    <li>Faculdade de Medicina Veterinária e Zootecnia – UNESP - Botucatu </li>
+                    <p>Área de Reprodução</p>
+                    <li>Hospital Veterinário da Universidade Estadual de Londrina</li>
+                    <p>Área de Teriogenealogia de Animais de Companhia</p>
+                </ul>
+            </article>
+        </main>
+    </div>
 </body>
 </html>

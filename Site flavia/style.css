@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@media screen and (max-height: 450px) {
+    .menu{padding-top: 15px;}
+    .menu a{font-size: 18px;}
+}
 :root{
     --cor0:#89D99D;
     --cor1:#3B8C6E;
@@ -9,12 +13,48 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', monospace;
 }
 div.description{
     display: inline-block;
 }
 header > p{
     width: 100%;
+}
+.menu{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5;
+    padding-top: 60px;
+}
+.menu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2em;
+    display: block;
+    transition: 0.3;
+    color: white;
+
+}
+.menu a:hover{
+    color: var(--cor0);
+}
+.btnFechar{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3em;
+    margin-left: 50px;
+}
+#principal{
+    padding: 16px;
+    transition: margin-left 0.5s;
 }
 h1{ 
     text-align: center;
