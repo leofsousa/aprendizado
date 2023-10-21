@@ -15,11 +15,26 @@
     padding: 0px;
     font-family: 'Lato', monospace;
 }
-div.description{
-    display: inline-block;
+h1{ 
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    color: white;
+    font-size: 8vh;
+    font-weight: bold;
 }
-header > p{
-    width: 100%;
+header{
+    background-color: ;
+}    
+header img{
+    float: left;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    width: 40vw;
+}
+.description{
+    padding: 0px;
+    text-align: justify;
 }
 .menu{
     height: 100%;
@@ -45,6 +60,12 @@ header > p{
 .menu a:hover{
     color: var(--cor0);
 }
+.btnMenu{
+    width: 100%;
+    float: left;
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 0px var(--cor4);
+}
 .btnFechar{
     position: absolute;
     top: 0;
@@ -53,16 +74,13 @@ header > p{
     margin-left: 50px;
 }
 #principal{
-    padding: 16px;
+    padding: 0px;
     transition: margin-left 0.5s;
 }
-h1{ 
-    text-align: center;
-    padding: 30px;
-    background-color: var(--cor3);
-    color: white;
-    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.486);
+article{
+    display: inline-block;
 }
+
 img{
     width: 300px;
     position: relative;
