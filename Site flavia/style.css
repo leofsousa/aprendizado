@@ -4,16 +4,19 @@
     .menu a{font-size: 18px;}
 }
 :root{
-    --cor0:#89D99D;
-    --cor1:#3B8C6E;
-    --cor2:#1E5959;
-    --cor3:#0B2B40;
-    --cor4:#0B2B40;
+    --cor0:#93B7D4;
+    --cor1:#5094CB;
+    --cor2:#3C6F98;
+    --cor3:#34414B;
+    --cor4:#1E374B;
 }
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', monospace;
+}
+body{
+    background-color: var(--cor0);
 }
 h1{ 
     text-align: center;
@@ -22,19 +25,25 @@ h1{
     color: white;
     font-size: 8vh;
     font-weight: bold;
+    text-shadow: 1px 4px 7px rgba(0, 0, 0, 0.644);
 }
 header{
-    background-color: ;
+    background-color: var(--cor0);
+    padding-left: 10px 10px 10px 0px;
+    
 }    
 header img{
     float: left;
     margin: 0px 10px 0px 0px;
     padding: 0px;
     width: 40vw;
+    background-color: var(--cor0);
+    
 }
 .description{
-    padding: 0px;
+    padding: 50px 10px 10px 0px;
     text-align: justify;
+    min-height: 26.3vw;
 }
 .menu{
     height: 100%;
@@ -47,6 +56,9 @@ header img{
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
+}
+h2{
+    padding-top: 30px;
 }
 .menu a{
     padding: 8px 8px 8px 32px;
@@ -63,7 +75,7 @@ header img{
 .btnMenu{
     width: 100%;
     float: left;
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     box-shadow: 0px 0px 0px var(--cor4);
 }
 .btnFechar{
@@ -84,6 +96,14 @@ article{
 img{
     width: 300px;
     position: relative;
+}
+main{
+    padding: 50px;
+    align-items: center;
+    max-width: 600px;
+    background-color: white;
+    margin: auto;
+    
 }
 footer{
     background-color: var(--cor4);
