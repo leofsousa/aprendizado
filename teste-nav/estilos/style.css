@@ -32,7 +32,7 @@ nav a{
     padding: 3px 3px 3px 3px;
     margin-left: 30px;
     border: 2px solid var(--cor04);
-    text-align: right;
+
 }
 nav a:hover{
     border-radius: 5px;
@@ -41,4 +41,15 @@ nav a:hover{
     box-sizing: border-box;
    
     
+}
+section{
+    background-image: url(../imagens-bolos/bolo01.jpeg);
+    background-size: cover;
+    width: 97vw;
+    height: 100vh;
+}
+.text{
+    background-color: rgba(144, 238, 144, 0.541);
+    width: 250px;
+    height: 500px;
 }
