@@ -63,6 +63,7 @@ section.bolo1{
     padding: 5px;
     text-align: center;
     color: white;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.507);
 }
 .text h3{
     margin-top: 0px;
@@ -81,6 +82,7 @@ section.bolo1{
 .text2{
     position: relative;
     background-color: #8c0303b2;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.562);
     width: 240px;
     height: 500px;
     padding: 5px;
@@ -100,7 +102,22 @@ section.bolo1{
     padding: 10px;
     text-align: center;
 }
+
 footer{
-    width: 500px;
     background-color: var(--cor00);
+    height: 300px;
+
+}
+img.logo{
+    position: relative;
+    vertical-align: middle;
+    width: 80px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+img.logo:hover{
+    border: 2px solid var(--cor03);
+    box-shadow: 1px 1px 7px var(--cor03);
+    transition: all .5s;
 }
