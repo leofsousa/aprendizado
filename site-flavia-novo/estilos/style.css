@@ -1,0 +1,14 @@
+@charset "UTF-80";
+:root{
+    --cor01: #F29B30;
+    --cor02: #F2AE30;
+    --cor03: #EEB144;
+    --cor04: #E6B95E;
+}
+body{
+    background-image: url(../imagens/bg-gray.jpg);
+    background-size: cover;
+}
+div.description{
+    background-color: white;
+}
