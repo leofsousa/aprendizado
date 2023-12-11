@@ -5,10 +5,42 @@
     --cor03: #EEB144;
     --cor04: #E6B95E;
 }
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: var(--cor03);
+    display: flex;
+    flex-direction: column;
+    
+    float: right;
+}
+nav a{
+    color: black;
+}
 body{
-    background-image: url(../imagens/bg-gray.jpg);
+    background-image: url(../imagens/bg-concreto.jpg);
     background-size: cover;
+    background-repeat: repeat-y;
+}
+main{
+    display: flex;
+    max-width: 960px;
+    width: 80vw;
+    padding-top: 50px;
+    margin: auto;
+    height: 80vh;
 }
 div.description{
     background-color: white;
+    width: 50%;
+}
+div.image{
+    background-image: url(../imagens/foto-flavia-menor.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 50%;
 }
