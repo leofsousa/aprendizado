@@ -12,13 +12,20 @@
 }
 nav{
     background-color: var(--cor03);
+    position: relative;
+    float:right;
     display: flex;
     flex-direction: column;
+    margin-top: 200px;
+    margin-right: 6px;
+    border-radius: 50px;
+
     
-    float: right;
 }
 nav a{
     color: black;
+    padding: 15px;
+    
 }
 body{
     background-image: url(../imagens/bg-concreto.jpg);
@@ -27,11 +34,17 @@ body{
 }
 main{
     display: flex;
-    max-width: 960px;
-    width: 80vw;
-    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    height: 80vh;
+}
+.principal{
+    display: flex;
+    max-width: 1080px;
+    width: 75vw;
+    margin: auto;
+    height: 90vh;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.699);
 }
 div.description{
     background-color: white;
