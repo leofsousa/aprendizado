@@ -10,6 +10,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../imagens/bg-concreto.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
 nav{
     background-color: var(--cor03);
     position: relative;
@@ -19,40 +24,31 @@ nav{
     margin-top: 200px;
     margin-right: 6px;
     border-radius: 50px;
-
-    
 }
 nav a{
     color: black;
     padding: 15px;
     
 }
-body{
-    background-image: url(../imagens/bg-concreto.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;
-}
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+nav a:hover{
+    background-color: var(--cor01);
+    color: white;
+    border-radius: 50%;
+    transition: background-color .5s;
 }
 .principal{
-    display: flex;
-    max-width: 1080px;
-    width: 75vw;
-    margin: auto;
-    height: 90vh;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.699);
+    position: absolute;
+    display: block;
+    width: 80vw;
+    height: 80vh;
 }
-div.description{
+.description{
     background-color: white;
     width: 50%;
+
 }
-div.image{
-    background-image: url(../imagens/foto-flavia-menor.jpeg);
-    background-repeat: no-repeat;
+.image{
+    background: url(../imagens/foto-flavia-menor.jpeg);
     background-size: cover;
     background-position: right center;
     width: 50%;
