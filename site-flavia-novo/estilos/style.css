@@ -38,18 +38,26 @@ nav a:hover{
 }
 .principal{
     position: absolute;
-    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 80vw;
     height: 80vh;
-}
-.description{
     background-color: white;
-    width: 50%;
-
 }
 .image{
+    position: relative;
+    float: right;
+    display: block;
     background: url(../imagens/foto-flavia-menor.jpeg);
-    background-size: cover;
+    background-position: cover;
     background-position: right center;
+    background-repeat: no-repeat;
     width: 50%;
+}
+.text{
+    display: block;
+    position: relative;
+    float: left;
+    width: 50vw;
 }
