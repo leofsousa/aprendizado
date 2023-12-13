@@ -1,5 +1,7 @@
 @charset "UTF-80";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 :root{
+    --fontNome: 'Bungee Inline', sans-serif;
     --cor01: #F29B30;
     --cor02: #F2AE30;
     --cor03: #EEB144;
@@ -24,6 +26,11 @@ nav{
     margin-top: 200px;
     margin-right: 6px;
     border-radius: 50px;
+}
+.home{
+    color: white;
+    background-color: var(--cor01);
+    border-radius: 50%;
 }
 nav a{
     color: black;
@@ -56,5 +63,10 @@ nav a:hover{
     height: 100%;
 }
 .text{
-width: 10px;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text .nome{
+    font-family: var(--fontNome);
+    color: var(--cor04);
 }
